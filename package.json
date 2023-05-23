@@ -1,7 +1,7 @@
 {
   "name": "nbt-lang",
-  "displayName": "NBT-Lang",
-  "description": "",
+  "displayName": "NBT Lang",
+  "description": "An LSP service for NBT and SNBT files!",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.78.0"
@@ -14,7 +14,7 @@
       {
         "id": "nbt",
         "aliases": ["NBT", "nbt"],
-        "extensions": [".nbt",".dat",".dat_old"],
+        "extensions": [".nbt", ".dat", ".dat_old", ".snbt"],
         "configuration": "./language-configuration.json"
       }
     ],
