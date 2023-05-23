@@ -10,16 +10,20 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "nbt",
-      "aliases": ["NBT", "nbt"],
-      "extensions": [".nbt",".dat",".dat_old"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "nbt",
-      "scopeName": "source.nbt",
-      "path": "./syntaxes/nbt.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "nbt",
+        "aliases": ["NBT", "nbt"],
+        "extensions": [".nbt",".dat",".dat_old"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "nbt",
+        "scopeName": "source.nbt",
+        "path": "./syntaxes/nbt.tmLanguage.json"
+      }
+    ]
   }
 }
