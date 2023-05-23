@@ -16,9 +16,6 @@
           "include": "#short"
         },
         {
-          "include": "#int"
-        },
-        {
           "include": "#long"
         },
         {
@@ -28,22 +25,25 @@
           "include": "#double"
         },
         {
+          "include": "#int"
+        },
+        {
           "include": "#string"
         },
         {
-          "include": "#bytearray"
-        },
-        {
-          "include": "#list"
-        },
-        {
           "include": "#compound"
+        },
+        {
+          "include": "#bytearray"
         },
         {
           "include": "#intarray"
         },
         {
           "include": "#longarray"
+        },
+        {
+          "include": "#list"
         }
       ]
     },
